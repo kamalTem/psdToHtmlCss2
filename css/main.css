@@ -1,0 +1,140 @@
+ul, li {
+  display: block;
+  padding: 0;
+  margin: 0; }
+
+#header {
+  margin-top: 70px; }
+
+nav {
+  width: 100%;
+  height: 165px; }
+  nav .logo {
+    float: left; }
+  nav ul.menu {
+    float: right; }
+    nav ul.menu li {
+      float: left;
+      margin-left: 120px; }
+      nav ul.menu li a {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #b4ad9e; }
+      nav ul.menu li a:hover {
+        border-bottom: 2px solid #b4ad9e; }
+
+.bg {
+  margin-top: -80px; }
+  .bg img {
+    width: 105%; }
+
+#one {
+  margin-top: 70px; }
+
+.one span {
+  text-transform: uppercase;
+  color: #b4ad9e; }
+.one h2 {
+  margin-top: 25px;
+  color: #626262; }
+.one p {
+  margin-top: 25px;
+  margin-bottom: 25px; }
+
+.two {
+  margin-top: 130px;
+  margin-bottom: 135px; }
+  .two img {
+    width: 100%;
+    margin-bottom: 25px; }
+  .two span {
+    text-transform: uppercase;
+    color: #b4ad9e; }
+  .two h2 {
+    margin-top: 25px;
+    color: #626262; }
+  .two p {
+    margin-top: 25px;
+    margin-bottom: 25px; }
+
+.first-row {
+  margin-bottom: 135px; }
+
+.three {
+  background: #f0f0f0;
+  height: 285px; }
+  .three h2 {
+    margin-top: 80px;
+    color: #626262; }
+  .three form {
+    margin-top: 80px; }
+  .three input {
+    background: none;
+    width: 300px;
+    border: none;
+    border-bottom: 2px solid #000; }
+  .three button {
+    border: none;
+    border-bottom: 2px solid #000;
+    background: none;
+    margin-left: -5px;
+    cursor: pointer; }
+    .three button img {
+      margin-top: -7px; }
+
+.four {
+  margin-top: 130px;
+  margin-bottom: 135px; }
+  .four img {
+    width: 100%;
+    margin-bottom: 25px; }
+  .four span {
+    text-transform: uppercase;
+    color: #b4ad9e; }
+  .four h2 {
+    margin-top: 25px;
+    color: #626262; }
+  .four p {
+    margin-top: 25px;
+    margin-bottom: 25px; }
+  .four button {
+    border: none;
+    margin-top: 140px;
+    background: none;
+    border: 1px solid #626262;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: #626262; }
+  .four button:hover {
+    color: #b4ad9e; }
+
+footer {
+  background: #f0f0f0;
+  overflow: hidden;
+  font-size: 20px; }
+  footer ul.info1 {
+    padding: 47px;
+    float: left; }
+    footer ul.info1 li {
+      float: left;
+      margin-left: 15px; }
+  footer ul.info2 {
+    padding: 47px;
+    float: right; }
+    footer ul.info2 li {
+      float: left;
+      margin-left: 15px; }
+      footer ul.info2 li a {
+        color: #626262;
+        width: 18px;
+        height: 13px; }
+      footer ul.info2 li a:hover {
+        color: #b4ad9e; }
+      footer ul.info2 li * {
+        text-decoration: none; }
+
+@media screen and (min-width: 400px) {
+  nav ul.menu li {
+    margin-left: 40px; } }
+
+/*# sourceMappingURL=main.css.map */

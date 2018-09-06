@@ -1,0 +1,176 @@
+$color1: #b4ad9e;
+$color2: #626262;
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+#header{
+	margin-top: 70px;
+}
+nav{
+	width:100%;
+	height: 165px;
+	.logo{
+		float: left;
+			}
+	ul.menu{
+		float: right;
+		
+		li{
+			float: left;
+			margin-left: 120px;
+			a{
+				text-decoration: none;
+				text-transform: uppercase;
+				color: $color1;
+			}
+			a:hover{
+				border-bottom: 2px solid $color1;
+			}
+		}
+	}
+}
+.bg{
+	margin-top: -80px;
+	img{
+		width: 105%;
+	}
+}
+#one{
+	margin-top:70px;
+}
+.one{
+	span{
+		text-transform: uppercase;
+		color: $color1;
+	}
+	h2{
+		margin-top: 25px;
+		color:$color2;
+	}
+	p{
+		margin-top: 25px;
+		margin-bottom: 25px;
+	}
+}
+.two{
+	margin-top: 130px;
+	margin-bottom: 135px;
+	img{
+		width: 100%;
+		margin-bottom: 25px;
+	}
+	span{
+		text-transform: uppercase;
+		color: $color1;
+	}
+	h2{
+		margin-top: 25px;
+		color:$color2;
+	}
+	p{
+		margin-top: 25px;
+		margin-bottom: 25px;
+	}
+}
+.first-row{
+	margin-bottom: 135px;
+}
+.three{
+	background: #f0f0f0;
+	height: 285px;
+	h2{
+		margin-top: 80px;
+		color:$color2;
+	}
+	form{
+		margin-top: 80px;
+	}
+	input{
+			background: none;
+			width: 300px;
+			border:none;
+			border-bottom: 2px solid #000;
+		}
+		button{
+			border:none;
+			border-bottom: 2px solid #000;
+			background: none;
+			margin-left: -5px;
+			cursor: pointer;
+			img{
+				margin-top: -7px;
+			}
+		}
+}
+.four{
+	margin-top: 130px;
+	margin-bottom: 135px;
+	img{
+		width: 100%;
+		margin-bottom: 25px;
+	}
+	span{
+		text-transform: uppercase;
+		color: $color1;
+	}
+	h2{
+		margin-top: 25px;
+		color:$color2;
+	}
+	p{
+		margin-top: 25px;
+		margin-bottom: 25px;
+	}
+	button{
+		border:none;
+		margin-top: 140px;
+		background: none;
+		border: 1px solid $color2;
+		padding: 10px 20px;
+		font-size: 20px;
+		color:$color2;
+	}
+	button:hover{
+		color: $color1;
+	}
+}
+footer{
+	background: #f0f0f0;
+	overflow: hidden;
+	font-size: 20px;
+	ul.info1{
+		padding: 47px;
+		float: left;
+		li{
+			float: left;
+			margin-left: 15px;
+		}
+	}
+	ul.info2{
+		padding: 47px;
+		float: right;
+		li{
+			float: left;
+			margin-left: 15px;
+			a{
+				color: $color2;
+				width: 18px;
+				height: 13px;
+			}
+			a:hover{
+					color: $color1;
+				}
+			*{
+				text-decoration: none;
+			}
+		}
+	}
+}
+@media screen and (min-width: 400px) {
+	nav ul.menu li {
+    	margin-left: 40px;
+	}
+}
